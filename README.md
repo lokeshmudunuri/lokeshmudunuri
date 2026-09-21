@@ -11,10 +11,15 @@
   </a>
 </p>
 
-<p align="center">
-  <b>Building responsive, deterministic web applications while developing core foundations in AI, machine learning, and developer tooling.</b>
+<!-- Clean Identity & Location Block -->
+<h3>Mudunuri Lokesh Varma</h3>
+<p>
+  <b>Frontend Developer • Aspiring AI & ML Engineer</b>
+  <br/>
+  📍 Bhimavaram, India
 </p>
 
+<!-- Social Links -->
 <p align="center">
   <a href="https://github.com/lokeshmudunuri">
     <img src="https://img.shields.io/badge/GitHub-lokeshmudunuri-00d4ff?style=for-the-badge&logo=github&logoColor=white&labelColor=0a0e27" alt="GitHub Profile"/>
@@ -33,14 +38,13 @@
   </a>
 </p>
 
+<!-- Verified Academic Metadata Badges -->
 <p align="center">
   <img src="https://img.shields.io/badge/Education-B.Tech_AI_%26_ML_(2028)-0a0e27?style=flat-square&logo=academia&logoColor=00d4ff" alt="Education"/>
   &nbsp;•&nbsp;
   <img src="https://img.shields.io/badge/Institution-Vishnu_Institute_of_Technology-0a0e27?style=flat-square&logo=googlemaps&logoColor=00d4ff" alt="Institution"/>
   &nbsp;•&nbsp;
   <img src="https://img.shields.io/badge/CGPA-7.12_%2F_10.00-0a0e27?style=flat-square&logo=target&logoColor=00d4ff" alt="CGPA"/>
-  &nbsp;•&nbsp;
-  <img src="https://img.shields.io/badge/Location-Bhimavaram%2C_India-0a0e27?style=flat-square&logo=pin&logoColor=00d4ff" alt="Location"/>
 </p>
 
 </div>
@@ -49,150 +53,128 @@
 
 ### 👨‍💻 About Me
 
-<table>
-  <tr>
-    <td width="65%" valign="top">
-      <p>
-        I am a <b>Third-Year B.Tech student in Artificial Intelligence & Machine Learning</b> at Vishnu Institute of Technology, Bhimavaram. My development approach centers on bridging clean, accessible frontends with rigorous backend data processing and AI-assisted workflows.
-      </p>
-      <ul>
-        <li><b>Frontend Engineering:</b> Crafting interactive, component-driven Single Page Applications using React and modern JavaScript (ES6+).</li>
-        <li><b>Deterministic Systems & AI:</b> Building data pipelines where deterministic mathematics and validation occur first in Python/Pandas before passing structured context to LLMs like Google Gemini.</li>
-        <li><b>Engineering Mindset:</b> Emphasizing functional software, reproducible architectures, and thoughtful problem-solving over vanity metrics or ungrounded generative claims.</li>
-      </ul>
-    </td>
-    <td width="35%" align="center" valign="middle">
-      <img width="260" src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif" alt="Developer Coding Animation"/>
-    </td>
-  </tr>
-</table>
+* **Who I Am:** Third-year B.Tech student in Artificial Intelligence & Machine Learning at Vishnu Institute of Technology, Bhimavaram (Class of 2028).
+* **What I Build:** Interactive, accessible web applications with React and Python backends that solve practical software and operational challenges.
+* **Technical Direction:** Architecting systems where deterministic mathematics and validation happen first in Python/Pandas before passing structured context to AI models.
+* **What I Am Learning:** Scalable React state architectures, exploratory data pipelines, heuristic anomaly detection, and agentic developer workflows.
+
+---
+
+### 🛠️ Technical Preferences & Stack
+
+#### 💻 Programming Languages
+<p>
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=python,java,js" alt="Python, Java, JavaScript"/>
+  </a>
+</p>
+
+#### 🌐 Frontend Development
+<p>
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=html,css,js,react,tailwind" alt="HTML5, CSS3, JavaScript, React, Tailwind CSS"/>
+  </a>
+</p>
+
+#### ⚙️ Backend & APIs
+<p>
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=fastapi,python" alt="FastAPI, Python Backend"/>
+  </a>
+</p>
+
+#### 📊 AI / ML & Data Science
+<p>
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=py,pandas,numpy" alt="Python, Pandas, NumPy"/>
+  </a>
+  &nbsp;
+  <img src="https://img.shields.io/badge/Google_Gemini_API-8E75C2?style=for-the-badge&logo=googlegemini&logoColor=white" alt="Gemini API" height="48"/>
+</p>
+
+#### 🗄️ Databases & ORM
+<p>
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=sqlite" alt="SQLite"/>
+  </a>
+  &nbsp;
+  <img src="https://img.shields.io/badge/SQLAlchemy-D71F00?style=for-the-badge&logo=sqlalchemy&logoColor=white" alt="SQLAlchemy" height="48"/>
+</p>
+
+#### 🛠️ Developer Tools & Environments
+<p>
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=git,github,vscode,bash" alt="Git, GitHub, VS Code, Bash"/>
+  </a>
+  &nbsp;
+  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions" height="48"/>
+</p>
 
 ---
 
 ### 🚀 Featured Projects
 
-<table>
-  <!-- Project 1: Retail Sales & Inventory Co-Pilot -->
-  <tr>
-    <td width="50%" valign="top">
-      <div align="center">
-        <h3>🛒 Retail Sales & Inventory Co-Pilot</h3>
-      </div>
-      <p><b>Deterministic retail analytics and inventory intelligence system.</b></p>
-      <p>
-        Designed to eliminate LLM arithmetic hallucinations by enforcing a strict two-stage pipeline: deterministic calculation engines process transaction history first, and grounded analytical evidence is then passed to Google Gemini for executive-level stock directives.
-      </p>
-      <ul>
-        <li><b>Core Engineering:</b> Computes sales velocity, inventory runway, dead-stock capital trapping, and stock-out anomalies across 90-day retail records.</li>
-        <li><b>Resilience:</b> Structured schema outputs with automatic offline fallback dashboard when external API quotas are unavailable.</li>
-      </ul>
-      <p>
-        <b>Tech Stack:</b> <code>Python</code> · <code>FastAPI</code> · <code>Pandas</code> · <code>SQLite</code> · <code>Gemini API</code>
-      </p>
-      <p>
-        <a href="https://github.com/lokeshmudunuri/retail-sales-inventory-copilot">
-          <img src="https://img.shields.io/badge/GitHub_Repo-00d4ff?style=flat-square&logo=github&logoColor=white&labelColor=0a0e27" alt="Repo"/>
-        </a>
-        &nbsp;
-        <a href="https://youtu.be/bf_dRJUs9sY?si=nrb72j-hBDLWkpNJ">
-          <img src="https://img.shields.io/badge/Video_Walkthrough-FF0000?style=flat-square&logo=youtube&logoColor=white" alt="Video Demo"/>
-        </a>
-      </p>
-    </td>
-    <!-- Project 2: MindCare -->
-    <td width="50%" valign="top">
-      <div align="center">
-        <h3>🧠 MindCare — Wellness Platform Concept</h3>
-      </div>
-      <p><b>Full-stack mental wellness architecture prototype.</b></p>
-      <p>
-        An academic full-stack prototype exploring role-based patient/practitioner interactions, daily mood logging, and guarded conversational assistance with strict safety disclaimers.
-      </p>
-      <ul>
-        <li><b>Core Engineering:</b> Dual-tier Role-Based Access Control (Patients & Psychologists), appointment management, encrypted session notes, and JWT-authenticated API endpoints.</li>
-        <li><b>Architecture:</b> Modular FastAPI service layer backed by SQLAlchemy/SQLite with dynamic Single-Page frontend views.</li>
-      </ul>
-      <p>
-        <b>Tech Stack:</b> <code>FastAPI</code> · <code>Python</code> · <code>JavaScript</code> · <code>SQLite</code> · <code>Gemini API</code>
-      </p>
-      <p>
-        <a href="https://github.com/lokeshmudunuri/smart-mind-care-ai">
-          <img src="https://img.shields.io/badge/GitHub_Repo-00d4ff?style=flat-square&logo=github&logoColor=white&labelColor=0a0e27" alt="Repo"/>
-        </a>
-      </p>
-    </td>
-  </tr>
-  <!-- Project 3: Dev Assistant AI -->
-  <tr>
-    <td colspan="2" valign="top">
-      <div align="center">
-        <h3>💻 Dev Assistant AI</h3>
-      </div>
-      <p><b>AI-assisted developer tooling for code comprehension and structural exploration.</b></p>
-      <p>
-        Developer productivity tooling focused on breaking down legacy scripts, summarizing unfamiliar codebases, and aiding developer onboarding with contextual explanations and structural flow mapping.
-      </p>
-      <p>
-        <b>Tech Stack:</b> <code>Python</code> · <code>JavaScript</code> · <code>REST APIs</code> · <code>Git</code>
-      </p>
-      <p>
-        <a href="https://github.com/lokeshmudunuri/Dev-assistant-ai">
-          <img src="https://img.shields.io/badge/GitHub_Repo-00d4ff?style=flat-square&logo=github&logoColor=white&labelColor=0a0e27" alt="Repo"/>
-        </a>
-      </p>
-    </td>
-  </tr>
-</table>
+#### 1. Retail Sales & Inventory Co-Pilot
+*Deterministic retail analytics dashboard and inventory intelligence copilot.*
+
+* **What it does:** Solves multi-store retail stockout risks, overstocking, and inventory capital trapping across 90 days of transactions. Most importantly, it eliminates generative math hallucinations by never permitting an LLM to guess, round, or approximate business metrics.
+* **How I built it:** Engineered a single-directional data pipeline. Raw transaction datasets (`sales`, `inventory`, `stores`, `products`) pass through defensive ingestion schemas, calculate metrics in Pandas, evaluate heuristic risk thresholds, and format verified JSON payloads for Google Gemini to interpret into executive directives.
+* **Key engineering:**
+  * *Deterministic Analytics Engine (`analytics.py`):* Computes rolling daily sales velocity, inventory runway days, dead-stock capital trapping, and period-over-period growth in pure Python.
+  * *Attention Engine (`rules.py`):* Heuristic anomaly triggers for stockouts (<7 days runway), overstock (>60 days), and sudden store-level demand spikes.
+  * *Grounded Reasoning & Fallback:* Strict 7-part executive output structure; fully operational with zero crashes when offline or when external API quotas are exhausted.
+* **Stack:** `Python` · `FastAPI` · `Pandas` · `NumPy` · `SQLite` · `Gemini API`
+* **Links:** [GitHub Repository](https://github.com/lokeshmudunuri/retail-sales-inventory-copilot) • [Video Walkthrough Demo](https://youtu.be/bf_dRJUs9sY?si=nrb72j-hBDLWkpNJ)
 
 ---
 
-### 🏆 Honors & Research Milestones
+#### 2. MindCare — Mental Wellness Platform Concept
+*Full-stack mental wellness application prototype bridging patients and practitioners.*
 
-<table>
-  <tr>
-    <td style="padding: 16px;">
-      <h4 style="margin: 0 0 8px 0;">🥇 2nd Prize — Researchers' Day | <b>OralSense AI</b></h4>
-      <p><i>Presented at Vishnu Institute of Technology, Bhimavaram</i></p>
-      <p>
-        <b>Academic Concept:</b> An exploratory healthcare AI research study investigating computer-assisted preliminary triage to assist pathologists in routine microscopic screening.
-      </p>
-      <ul>
-        <li><b>Hypothesis & Modeling:</b> Targeted preliminary turnaround time reduction from an estimated 30+ minutes down to 2–4 minutes during exploratory academic trials.</li>
-        <li><b>Scope & Integrity:</b> Evaluated solely as an academic research concept. <i>(Not clinically deployed or medically approved for patient diagnosis).</i></li>
-      </ul>
-    </td>
-  </tr>
-</table>
+* **What it does:** Provides a structured, role-based mental health platform enabling patients to log emotional states and request care, while psychologists manage appointments, review patient history, and maintain clinical session notes.
+* **How I built it:** Implemented a modular FastAPI REST backend coupled with a responsive single-page frontend. Features strict JWT authentication and role-based access control (RBAC), alongside a context-aware Google Gemini assistant outfitted with safety rails.
+* **Key engineering:**
+  * *Dual-Tier RBAC:* Decoupled workflows ensuring psychologists access clinical tools and patient notes while patients access wellness tracking and empathetic chat.
+  * *Secure Authentication Flow:* PBKDF2-SHA256 password hashing via `passlib` and stateless token management via `python-jose`.
+  * *Safety-Grounded AI:* Role-tuned prompts providing mindful self-care for users with hardcoded crisis escalation disclaimers, and structured session summaries for practitioners.
+* **Stack:** `Python` · `FastAPI` · `JavaScript` · `SQLite` · `SQLAlchemy` · `JWT` · `Gemini API`
+* **Links:** [GitHub Repository](https://github.com/lokeshmudunuri/smart-mind-care-ai)
 
 ---
 
-### 🛠️ Technical Competencies
+#### 3. Dev Assistant AI
+*AI-assisted developer tooling for codebase exploration and structural comprehension.*
+
+* **What it does:** Assists developers in navigating unfamiliar codebases and legacy code by generating structural flow overviews, identifying function call hierarchies, and providing contextual code explanations.
+* **How I built it:** Created a lightweight developer tool utilizing Python REST endpoints and local Git metadata to analyze script dependencies and summarize repository logic.
+* **Key engineering:**
+  * *Contextual Flow Extraction:* Parses code structures and dependencies to help developers onboard into existing projects faster.
+  * *Developer Workflow Integration:* Lightweight CLI and API interface designed for local development exploration without heavy external dependencies.
+* **Stack:** `Python` · `JavaScript` · `REST APIs` · `Git`
+* **Links:** [GitHub Repository](https://github.com/lokeshmudunuri/Dev-assistant-ai)
+
+---
+
+### 🏆 Honors & Research Milestone
+
+#### 🥇 2nd Prize — Researchers' Day | **OralSense AI**
+*Presented at Vishnu Institute of Technology, Bhimavaram*
+
+* **Research Problem:** Investigated computer-assisted preliminary triage to assist pathologists in screening high-resolution microscopic oral pathology images.
+* **Academic Exploration:** Developed an academic concept targeting preliminary turnaround reduction from 30+ minutes down to 2–4 minutes during prototype testing.
+* **Scope & Academic Integrity:** Explored and presented strictly as an academic research concept at Researchers' Day; not clinically validated or deployed for real-world medical diagnosis.
+
+---
+
+### ⚡ Daily Dev Code
 
 <div align="center">
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React"/>
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"/>
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"/>
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3"/>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI"/>
-  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas"/>
-  <img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite"/>
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+  <img src="./assets/daily-dev-code.svg" alt="Daily Dev Code" width="85%"/>
 </div>
-
-<br/>
-
-| Domain | Competencies & Applied Technologies |
-| :--- | :--- |
-| **Frontend Development** | React.js, JavaScript (ES6+), Modern HTML5, CSS3, Responsive UI Design, Component Lifecycle, DOM Manipulation, Single Page Architecture |
-| **Backend & APIs** | Python 3.x, FastAPI, SQLite, SQLAlchemy ORM, RESTful API Design, JWT Authentication Flow, Uvicorn |
-| **Data & AI Foundations** | Pandas, Data Preprocessing & Cleaning, Deterministic Heuristics, Google Gemini API, Anomaly Detection Logic |
-| **Developer Tooling** | Git, GitHub, VS Code, Linux/Bash, AI-Assisted Workflows (Claude / Gemini Code Assist), GitHub Actions |
 
 ---
 
-### 📈 GitHub Analytics & Streak
+### 🔥 GitHub Streak & Analytics
 
 <div align="center">
 
@@ -232,20 +214,20 @@
 ### 🎯 Current Focus & Roadmap
 
 ```
-├── ⚛️ Frontend Architecture   ──► Advancing React state patterns, performance optimization, and accessible UI
-├── 📊 Data & ML Foundations   ──► Deepening feature engineering, exploratory data analysis, and mathematical foundations
+├── ⚛️ Frontend Architecture   ──► Advancing modular React patterns, responsive UI, and client state
+├── 📊 Data & ML Foundations   ──► Deepening feature preparation, exploratory pipelines, and supervised learning
 ├── ⚙️ Deterministic Pipelines ──► Marrying deterministic data validation with structured generative intelligence
 └── 🤖 Agentic AI Concepts    ──► Multi-tool patterns, context routing, and grounded developer tooling
 ```
 
 ---
 
-### 📬 Get In Touch
+### 📬 Let's Connect
 
 <div align="center">
 
 <p>
-  <b>I am actively seeking internships, research opportunities, hackathons, and meaningful software collaborations.</b>
+  <b>Open to internships, research opportunities, hackathons, and meaningful software collaborations.</b>
 </p>
 
 <p>
