@@ -3,9 +3,9 @@
 <!-- ================================================================= -->
 <div align="center">
 
-<!-- Standalone Top Identity & Location Banner (Always Renders Reliably) -->
+<!-- Custom Identity Banner -->
 <a href="https://github.com/lokeshmudunuri">
-  <img width="100%" src="./assets/profile-header-banner.svg" alt="Mudunuri Lokesh Varma • Bhimavaram, India"/>
+  <img src="./assets/profile-banner.jpg" alt="Mudunuri Lokesh Varma" width="600" />
 </a>
 
 <p align="center">
@@ -13,6 +13,7 @@
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&duration=2800&pause=1100&color=00D4FF&center=true&vCenter=true&repeat=true&width=680&height=45&lines=%F0%9F%9A%80+Frontend+Developer+%E2%80%A2+Aspiring+AI+%26+ML+Engineer;%E2%9A%99%EF%B8%8F+Deterministic+Calculations+%E2%86%92+Grounded+AI+Reasoning;%F0%9F%92%BB+React.js+%E2%80%A2+JavaScript+%E2%80%A2+Python+%E2%80%A2+FastAPI+%E2%80%A2+Pandas;%F0%9F%94%AC+B.Tech+AI+%26+ML+%40+Vishnu+Institute+of+Technology" alt="Dynamic Typing Bio"/>
   </a>
 </p>
+
 
 <!-- Social Links -->
 <p align="center">
