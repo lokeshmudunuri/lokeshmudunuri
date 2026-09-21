@@ -1,301 +1,319 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 760" width="100%" role="img" aria-label="Technical Skills">
-  <rect width="1100" height="760" rx="24" fill="#0b1120"/>
-  <rect x="1" y="1" width="1098" height="758" rx="24" fill="none" stroke="#263247" stroke-width="2"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 770" width="100%" role="img" aria-label="Technical Skills">
+  <defs>
+    <!-- Card Gradients -->
+    <linearGradient id="main-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b1120"/>
+      <stop offset="100%" stop-color="#070b14"/>
+    </linearGradient>
 
-  <text x="50" y="62"
-        fill="#f8fafc"
-        font-family="Arial, sans-serif"
-        font-size="28"
-        font-weight="700">
-    Technical Skills
-  </text>
+    <linearGradient id="tile-bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a2538"/>
+      <stop offset="100%" stop-color="#121b2b"/>
+    </linearGradient>
 
-  <text x="50" y="91"
-        fill="#94a3b8"
-        font-family="Arial, sans-serif"
-        font-size="14">
-    Skills listed from my current resume
-  </text>
+    <!-- Bevel & 3D Lighting -->
+    <filter id="tile-depth" x="-10%" y="-15%" width="120%" height="140%">
+      <feDropShadow dx="0" dy="3" stdDeviation="2.5" flood-color="#000000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
 
-  <!-- FRONTEND -->
-  <rect x="40" y="125" width="320" height="245" rx="18"
-        fill="#111a2b" stroke="#2b3950"/>
+  <style>
+    .section-title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 28px; font-weight: 700; fill: #f8fafc; }
+    .section-sub { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 14px; fill: #94a3b8; }
+    .cat-header { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 14.5px; font-weight: 700; letter-spacing: 0.6px; }
+    .item-label { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 14.5px; font-weight: 600; fill: #e2e8f0; }
+    .item-sub { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 11px; font-weight: 500; fill: #94a3b8; }
+    .tile { transition: transform 0.2s ease; }
+    .tile:hover { filter: brightness(1.15); }
+  </style>
 
-  <text x="65" y="162"
-        fill="#61dafb"
-        font-family="Arial, sans-serif"
-        font-size="15"
-        font-weight="700">
-    FRONTEND
-  </text>
+  <!-- Background Base -->
+  <rect width="1100" height="770" rx="24" fill="url(#main-bg)"/>
+  <rect x="1" y="1" width="1098" height="768" rx="24" fill="none" stroke="#263247" stroke-width="1.8"/>
 
-  <line x1="65" y1="178" x2="335" y2="178" stroke="#26344b"/>
+  <!-- Header -->
+  <text x="50" y="58" class="section-title">Technical Skills</text>
+  <text x="50" y="86" class="section-sub">Skills listed from my current resume</text>
 
-  <rect x="65" y="198" width="270" height="48" rx="10" fill="#172235"/>
-  <text x="82" y="228"
-        fill="#e5edf7"
-        font-family="Arial, sans-serif"
-        font-size="15"
-        font-weight="600">
-    HTML
-  </text>
+  <!-- ======================================================= -->
+  <!-- 1. FRONTEND -->
+  <!-- ======================================================= -->
+  <rect x="40" y="115" width="320" height="255" rx="18" fill="#111a2b" stroke="#2b3950" stroke-width="1.2"/>
+  <text x="65" y="152" fill="#38bdf8" class="cat-header">FRONTEND</text>
+  <line x1="65" y1="168" x2="335" y2="168" stroke="#26344b"/>
 
-  <rect x="65" y="256" width="270" height="48" rx="10" fill="#172235"/>
-  <text x="82" y="286"
-        fill="#e5edf7"
-        font-family="Arial, sans-serif"
-        font-size="15"
-        font-weight="600">
-    CSS
-  </text>
+  <!-- HTML -->
+  <g transform="translate(65, 185)" class="tile" filter="url(#tile-depth)">
+    <rect width="270" height="48" rx="10" fill="url(#tile-bg)" stroke="#334155" stroke-width="0.8"/>
+    <!-- HTML5 Shield Icon -->
+    <g transform="translate(14, 11) scale(0.95)">
+      <path d="M3 2L5 22L13.5 24L22 22L24 2H3Z" fill="#E34F26"/>
+      <path d="M13.5 4V22.2L19.4 20.6L21.1 4H13.5Z" fill="#EF652A"/>
+      <path d="M13.5 9.2H8.7L9.1 13.6H13.5V9.2ZM13.5 16.5L11.3 15.9L11.1 14.3H8.8L9.1 17.5L13.5 18.7V16.5Z" fill="#FFFFFF"/>
+      <path d="M13.5 9.2V13.6H17.9L17.5 17.5L13.5 18.7V16.5L15.7 15.9L15.9 14.3H13.5V9.2Z" fill="#EBEBEB"/>
+    </g>
+    <text x="50" y="30" class="item-label">HTML</text>
+  </g>
 
-  <rect x="65" y="314" width="270" height="48" rx="10" fill="#172235"/>
-  <text x="82" y="344"
-        fill="#e5edf7"
-        font-family="Arial, sans-serif"
-        font-size="15"
-        font-weight="600">
-    JavaScript
-  </text>
+  <!-- CSS -->
+  <g transform="translate(65, 245)" class="tile" filter="url(#tile-depth)">
+    <rect width="270" height="48" rx="10" fill="url(#tile-bg)" stroke="#334155" stroke-width="0.8"/>
+    <!-- CSS3 Shield Icon -->
+    <g transform="translate(14, 11) scale(0.95)">
+      <path d="M3 2L5 22L13.5 24L22 22L24 2H3Z" fill="#1572B6"/>
+      <path d="M13.5 4V22.2L19.4 20.6L21.1 4H13.5Z" fill="#33A9DC"/>
+      <path d="M13.5 9.2H8.7L9.1 13.6H13.5V9.2ZM13.5 16.5L11.3 15.9L11.1 14.3H8.8L9.1 17.5L13.5 18.7V16.5Z" fill="#FFFFFF"/>
+      <path d="M13.5 9.2V13.6H17.9L17.5 17.5L13.5 18.7V16.5L15.7 15.9L15.9 14.3H13.5V9.2Z" fill="#EBEBEB"/>
+    </g>
+    <text x="50" y="30" class="item-label">CSS</text>
+  </g>
 
+  <!-- JavaScript -->
+  <g transform="translate(65, 305)" class="tile" filter="url(#tile-depth)">
+    <rect width="270" height="48" rx="10" fill="url(#tile-bg)" stroke="#334155" stroke-width="0.8"/>
+    <!-- JS Icon -->
+    <g transform="translate(14, 12)">
+      <rect width="24" height="24" rx="4" fill="#F7DF1E"/>
+      <text x="12" y="17" font-family="Arial, sans-serif" font-weight="900" font-size="12" fill="#000000" text-anchor="middle">JS</text>
+    </g>
+    <text x="50" y="30" class="item-label">JavaScript</text>
+  </g>
 
-  <!-- REACT -->
-  <rect x="380" y="125" width="320" height="245" rx="18"
-        fill="#111a2b" stroke="#2b3950"/>
+  <!-- ======================================================= -->
+  <!-- 2. REACT -->
+  <!-- ======================================================= -->
+  <rect x="380" y="115" width="320" height="255" rx="18" fill="#111a2b" stroke="#2b3950" stroke-width="1.2"/>
+  <text x="405" y="152" fill="#61dafb" class="cat-header">REACT</text>
+  <line x1="405" y1="168" x2="675" y2="168" stroke="#26344b"/>
 
-  <text x="405" y="162"
-        fill="#61dafb"
-        font-family="Arial, sans-serif"
-        font-size="15"
-        font-weight="700">
-    REACT
-  </text>
+  <!-- React.js -->
+  <g transform="translate(405, 185)" class="tile" filter="url(#tile-depth)">
+    <rect width="270" height="48" rx="10" fill="url(#tile-bg)" stroke="#334155" stroke-width="0.8"/>
+    <!-- React Atom Icon -->
+    <g transform="translate(14, 11) scale(1.05)">
+      <ellipse cx="12" cy="12" rx="11" ry="4.3" fill="none" stroke="#61DAFB" stroke-width="1.3"/>
+      <ellipse cx="12" cy="12" rx="11" ry="4.3" transform="rotate(60 12 12)" fill="none" stroke="#61DAFB" stroke-width="1.3"/>
+      <ellipse cx="12" cy="12" rx="11" ry="4.3" transform="rotate(120 12 12)" fill="none" stroke="#61DAFB" stroke-width="1.3"/>
+      <circle cx="12" cy="12" r="2.2" fill="#61DAFB"/>
+    </g>
+    <text x="50" y="30" class="item-label">React.js</text>
+  </g>
 
-  <line x1="405" y1="178" x2="675" y2="178" stroke="#26344b"/>
+  <!-- ======================================================= -->
+  <!-- 3. BACKEND & APIs -->
+  <!-- ======================================================= -->
+  <rect x="720" y="115" width="340" height="255" rx="18" fill="#111a2b" stroke="#2b3950" stroke-width="1.2"/>
+  <text x="745" y="152" fill="#a78bfa" class="cat-header">BACKEND &amp; APIs</text>
+  <line x1="745" y1="168" x2="1035" y2="168" stroke="#26344b"/>
 
-  <rect x="405" y="198" width="270" height="48" rx="10" fill="#172235"/>
-  <text x="422" y="228"
-        fill="#e5edf7"
-        font-family="Arial, sans-serif"
-        font-size="15"
-        font-weight="600">
-    React.js
-  </text>
+  <!-- Node.js -->
+  <g transform="translate(745, 185)" class="tile" filter="url(#tile-depth)">
+    <rect width="290" height="48" rx="10" fill="url(#tile-bg)" stroke="#334155" stroke-width="0.8"/>
+    <!-- Node.js Hex Icon -->
+    <g transform="translate(14, 11) scale(1)">
+      <path d="M12 2L22 7.8V19.2L12 25L2 19.2V7.8L12 2Z" fill="#339933"/>
+      <text x="12" y="17" font-family="Arial, sans-serif" font-weight="bold" font-size="10" fill="#FFFFFF" text-anchor="middle">node</text>
+    </g>
+    <text x="50" y="30" class="item-label">Node.js</text>
+  </g>
 
+  <!-- Express.js -->
+  <g transform="translate(745, 245)" class="tile" filter="url(#tile-depth)">
+    <rect width="290" height="48" rx="10" fill="url(#tile-bg)" stroke="#334155" stroke-width="0.8"/>
+    <!-- Express.js Icon -->
+    <g transform="translate(14, 12)">
+      <rect width="24" height="24" rx="4" fill="#2d3748"/>
+      <text x="12" y="17" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-weight="700" font-size="11" fill="#FFFFFF" text-anchor="middle">ex</text>
+    </g>
+    <text x="50" y="30" class="item-label">Express.js</text>
+  </g>
 
-  <!-- BACKEND & APIs -->
-  <rect x="720" y="125" width="340" height="245" rx="18"
-        fill="#111a2b" stroke="#2b3950"/>
+  <!-- FastAPI -->
+  <g transform="translate(745, 305)" class="tile" filter="url(#tile-depth)">
+    <rect width="290" height="48" rx="10" fill="url(#tile-bg)" stroke="#334155" stroke-width="0.8"/>
+    <!-- FastAPI Bolt Icon -->
+    <g transform="translate(14, 11) scale(1.05)">
+      <circle cx="12" cy="12" r="11" fill="#009688"/>
+      <path d="M12.5 3L6 13.5H12L11 21L18 10.5H12L12.5 3Z" fill="#FFFFFF"/>
+    </g>
+    <text x="50" y="30" class="item-label">FastAPI</text>
+  </g>
 
-  <text x="745" y="162"
-        fill="#a78bfa"
-        font-family="Arial, sans-serif"
-        font-size="15"
-        font-weight="700">
-    BACKEND &amp; APIs
-  </text>
+  <!-- ======================================================= -->
+  <!-- 4. API DEVELOPMENT -->
+  <!-- ======================================================= -->
+  <rect x="40" y="390" width="320" height="150" rx="18" fill="#111a2b" stroke="#2b3950" stroke-width="1.2"/>
+  <text x="65" y="427" fill="#a78bfa" class="cat-header">API DEVELOPMENT</text>
+  <line x1="65" y1="443" x2="335" y2="443" stroke="#26344b"/>
 
-  <line x1="745" y1="178" x2="1035" y2="178" stroke="#26344b"/>
+  <!-- REST APIs -->
+  <g transform="translate(65, 463)" class="tile" filter="url(#tile-depth)">
+    <rect width="270" height="48" rx="10" fill="url(#tile-bg)" stroke="#334155" stroke-width="0.8"/>
+    <!-- REST Network Nodes Icon -->
+    <g transform="translate(14, 12)">
+      <circle cx="5" cy="12" r="3.5" fill="#38bdf8"/>
+      <circle cx="19" cy="6" r="3.5" fill="#a855f7"/>
+      <circle cx="19" cy="18" r="3.5" fill="#10b981"/>
+      <path d="M8 11L16 7M8 13L16 17" stroke="#94a3b8" stroke-width="1.5"/>
+    </g>
+    <text x="50" y="30" class="item-label">REST APIs</text>
+  </g>
 
-  <rect x="745" y="198" width="290" height="48" rx="10" fill="#172235"/>
-  <text x="762" y="228"
-        fill="#e5edf7"
-        font-family="Arial, sans-serif"
-        font-size="15"
-        font-weight="600">
-    Node.js
-  </text>
+  <!-- ======================================================= -->
+  <!-- 5. DATA / AI & ML -->
+  <!-- ======================================================= -->
+  <rect x="380" y="390" width="320" height="345" rx="18" fill="#111a2b" stroke="#2b3950" stroke-width="1.2"/>
+  <text x="405" y="427" fill="#fbbf24" class="cat-header">DATA / AI &amp; ML</text>
+  <line x1="405" y1="443" x2="675" y2="443" stroke="#26344b"/>
 
-  <rect x="745" y="256" width="290" height="48" rx="10" fill="#172235"/>
-  <text x="762" y="286"
-        fill="#e5edf7"
-        font-family="Arial, sans-serif"
-        font-size="15"
-        font-weight="600">
-    Express.js
-  </text>
+  <!-- Pandas -->
+  <g transform="translate(405, 463)" class="tile" filter="url(#tile-depth)">
+    <rect width="270" height="48" rx="10" fill="url(#tile-bg)" stroke="#334155" stroke-width="0.8"/>
+    <!-- Pandas Bars Icon -->
+    <g transform="translate(14, 11) scale(1)">
+      <rect x="3" y="10" width="4" height="12" rx="1.5" fill="#150458"/>
+      <rect x="9" y="4" width="4" height="18" rx="1.5" fill="#FF4A00"/>
+      <rect x="15" y="8" width="4" height="14" rx="1.5" fill="#150458"/>
+      <rect x="21" y="2" width="2" height="20" rx="1" fill="#E2E8F0"/>
+    </g>
+    <text x="50" y="30" class="item-label">Pandas</text>
+  </g>
 
-  <rect x="745" y="314" width="290" height="48" rx="10" fill="#172235"/>
-  <text x="762" y="344"
-        fill="#e5edf7"
-        font-family="Arial, sans-serif"
-        font-size="15"
-        font-weight="600">
-    FastAPI
-  </text>
+  <!-- NumPy -->
+  <g transform="translate(405, 523)" class="tile" filter="url(#tile-depth)">
+    <rect width="270" height="48" rx="10" fill="url(#tile-bg)" stroke="#334155" stroke-width="0.8"/>
+    <!-- NumPy Matrix Cube Icon -->
+    <g transform="translate(14, 12)">
+      <rect x="2" y="2" width="9" height="9" rx="2" fill="#013243"/>
+      <rect x="13" y="2" width="9" height="9" rx="2" fill="#4DABCF"/>
+      <rect x="2" y="13" width="9" height="9" rx="2" fill="#4DABCF"/>
+      <rect x="13" y="13" width="9" height="9" rx="2" fill="#013243"/>
+    </g>
+    <text x="50" y="30" class="item-label">NumPy</text>
+  </g>
 
+  <!-- Data Preprocessing -->
+  <g transform="translate(405, 583)" class="tile" filter="url(#tile-depth)">
+    <rect width="270" height="48" rx="10" fill="url(#tile-bg)" stroke="#334155" stroke-width="0.8"/>
+    <!-- Data Pipeline / Filter Funnel Icon -->
+    <g transform="translate(14, 12)">
+      <path d="M2 4H22L14 13V20L10 22V13L2 4Z" fill="none" stroke="#fbbf24" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/>
+      <circle cx="16" cy="18" r="2" fill="#38bdf8"/>
+    </g>
+    <text x="50" y="30" class="item-label">Data Preprocessing</text>
+  </g>
 
-  <!-- API DEVELOPMENT -->
-  <rect x="40" y="395" width="320" height="145" rx="18"
-        fill="#111a2b" stroke="#2b3950"/>
+  <!-- Machine Learning Fundamentals -->
+  <g transform="translate(405, 643)" class="tile" filter="url(#tile-depth)">
+    <rect width="270" height="48" rx="10" fill="url(#tile-bg)" stroke="#334155" stroke-width="0.8"/>
+    <!-- Neural Net / ML Graph Icon -->
+    <g transform="translate(14, 12)">
+      <circle cx="4" cy="6" r="2.5" fill="#fbbf24"/>
+      <circle cx="4" cy="18" r="2.5" fill="#fbbf24"/>
+      <circle cx="20" cy="6" r="2.5" fill="#38bdf8"/>
+      <circle cx="20" cy="18" r="2.5" fill="#38bdf8"/>
+      <circle cx="12" cy="12" r="3" fill="#f43f5e"/>
+      <line x1="4" y1="6" x2="12" y2="12" stroke="#64748b" stroke-width="1.3"/>
+      <line x1="4" y1="18" x2="12" y2="12" stroke="#64748b" stroke-width="1.3"/>
+      <line x1="12" y1="12" x2="20" y2="6" stroke="#64748b" stroke-width="1.3"/>
+      <line x1="12" y1="12" x2="20" y2="18" stroke="#64748b" stroke-width="1.3"/>
+    </g>
+    <text x="50" y="30" class="item-label" font-size="13.5">Machine Learning Fundamentals</text>
+  </g>
 
-  <text x="65" y="432"
-        fill="#a78bfa"
-        font-family="Arial, sans-serif"
-        font-size="15"
-        font-weight="700">
-    API DEVELOPMENT
-  </text>
-
-  <line x1="65" y1="448" x2="335" y2="448" stroke="#26344b"/>
-
-  <rect x="65" y="468" width="270" height="48" rx="10" fill="#172235"/>
-  <text x="82" y="498"
-        fill="#e5edf7"
-        font-family="Arial, sans-serif"
-        font-size="15"
-        font-weight="600">
-    REST APIs
-  </text>
-
-
-  <!-- DATA / AI & ML -->
-  <rect x="380" y="395" width="320" height="325" rx="18"
-        fill="#111a2b" stroke="#2b3950"/>
-
-  <text x="405" y="432"
-        fill="#fbbf24"
-        font-family="Arial, sans-serif"
-        font-size="15"
-        font-weight="700">
-    DATA / AI &amp; ML
-  </text>
-
-  <line x1="405" y1="448" x2="675" y2="448" stroke="#26344b"/>
-
-  <rect x="405" y="468" width="270" height="48" rx="10" fill="#172235"/>
-  <text x="422" y="498"
-        fill="#e5edf7"
-        font-family="Arial, sans-serif"
-        font-size="15"
-        font-weight="600">
-    Pandas
-  </text>
-
-  <rect x="405" y="526" width="270" height="48" rx="10" fill="#172235"/>
-  <text x="422" y="556"
-        fill="#e5edf7"
-        font-family="Arial, sans-serif"
-        font-size="15"
-        font-weight="600">
-    NumPy
-  </text>
-
-  <rect x="405" y="584" width="270" height="48" rx="10" fill="#172235"/>
-  <text x="422" y="614"
-        fill="#e5edf7"
-        font-family="Arial, sans-serif"
-        font-size="15"
-        font-weight="600">
-    Data Preprocessing
-  </text>
-
-  <rect x="405" y="642" width="270" height="48" rx="10" fill="#172235"/>
-  <text x="422" y="672"
-        fill="#e5edf7"
-        font-family="Arial, sans-serif"
-        font-size="15"
-        font-weight="600">
-    Machine Learning Fundamentals
-  </text>
-
-
-  <!-- LANGUAGE / DATABASE -->
-  <rect x="40" y="560" width="320" height="160" rx="18"
-        fill="#111a2b" stroke="#2b3950"/>
-
-  <text x="65" y="597"
-        fill="#38bdf8"
-        font-family="Arial, sans-serif"
-        font-size="15"
-        font-weight="700">
-    LANGUAGE
-  </text>
-
+  <!-- ======================================================= -->
+  <!-- 6. LANGUAGE / DATABASE -->
+  <!-- ======================================================= -->
+  <rect x="40" y="560" width="320" height="175" rx="18" fill="#111a2b" stroke="#2b3950" stroke-width="1.2"/>
+  <text x="65" y="597" fill="#38bdf8" class="cat-header">LANGUAGE &amp; DATABASE</text>
   <line x1="65" y1="613" x2="335" y2="613" stroke="#26344b"/>
 
-  <rect x="65" y="633" width="125" height="48" rx="10" fill="#172235"/>
-  <text x="82" y="663"
-        fill="#e5edf7"
-        font-family="Arial, sans-serif"
-        font-size="15"
-        font-weight="600">
-    Python
-  </text>
+  <!-- Python -->
+  <g transform="translate(65, 633)" class="tile" filter="url(#tile-depth)">
+    <rect width="125" height="48" rx="10" fill="url(#tile-bg)" stroke="#334155" stroke-width="0.8"/>
+    <!-- Python Snake Dual Color Icon -->
+    <g transform="translate(10, 11) scale(0.95)">
+      <path d="M12.4 0C5.9 0 6.3 2.8 6.3 2.8L6.3 5.7H12.6V6.6H3.8S0 6.1 0 12.6C0 19 3.3 18.8 3.3 18.8H5.3V15.9S5.2 12.5 8.7 12.5H15V12.4C15 12.4 18.5 12.6 18.5 6.3C18.5 0 12.4 0 12.4 0ZM8.9 1.9C9.6 1.9 10.1 2.5 10.1 3.2C10.1 3.8 9.6 4.4 8.9 4.4C8.3 4.4 7.7 3.8 7.7 3.2C7.7 2.5 8.3 1.9 8.9 1.9Z" fill="#38bdf8"/>
+      <path d="M12.6 25C19.1 25 18.7 22.2 18.7 22.2L18.7 19.3H12.4V18.4H21.2S25 18.9 25 12.4C25 6 21.7 6.2 21.7 6.2H19.7V9.1S19.8 12.5 16.3 12.5H10V12.6C10 12.6 6.5 12.4 6.5 18.7C6.5 25 12.6 25 12.6 25ZM16.1 23.1C15.4 23.1 14.9 22.5 14.9 21.8C14.9 21.2 15.4 20.6 16.1 20.6C16.7 20.6 17.3 21.2 17.3 21.8C17.3 22.5 16.7 23.1 16.1 23.1Z" fill="#FACC15"/>
+    </g>
+    <text x="44" y="30" class="item-label">Python</text>
+  </g>
 
-  <rect x="202" y="633" width="133" height="48" rx="10" fill="#172235"/>
-  <text x="219" y="663"
-        fill="#e5edf7"
-        font-family="Arial, sans-serif"
-        font-size="15"
-        font-weight="600">
-    SQLite
-  </text>
+  <!-- SQLite -->
+  <g transform="translate(202, 633)" class="tile" filter="url(#tile-depth)">
+    <rect width="133" height="48" rx="10" fill="url(#tile-bg)" stroke="#334155" stroke-width="0.8"/>
+    <!-- SQLite Cylinder Icon -->
+    <g transform="translate(10, 11) scale(0.95)">
+      <ellipse cx="12" cy="5" rx="9" ry="3" fill="#003B57" stroke="#38bdf8" stroke-width="1.2"/>
+      <path d="M3 5V12C3 13.6 7 15 12 15C17 15 21 13.6 21 12V5" fill="none" stroke="#38bdf8" stroke-width="1.2"/>
+      <path d="M3 12V19C3 20.6 7 22 12 22C17 22 21 20.6 21 19V12" fill="none" stroke="#38bdf8" stroke-width="1.2"/>
+    </g>
+    <text x="44" y="30" class="item-label">SQLite</text>
+  </g>
 
+  <!-- ======================================================= -->
+  <!-- 7. AI DEVELOPMENT -->
+  <!-- ======================================================= -->
+  <rect x="720" y="390" width="340" height="345" rx="18" fill="#111a2b" stroke="#2b3950" stroke-width="1.2"/>
+  <text x="745" y="427" fill="#c084fc" class="cat-header">AI DEVELOPMENT</text>
+  <line x1="745" y1="443" x2="1035" y2="443" stroke="#26344b"/>
 
-  <!-- AI DEVELOPMENT -->
-  <rect x="720" y="395" width="340" height="325" rx="18"
-        fill="#111a2b" stroke="#2b3950"/>
+  <!-- AI-Assisted Development -->
+  <g transform="translate(745, 463)" class="tile" filter="url(#tile-depth)">
+    <rect width="290" height="56" rx="10" fill="url(#tile-bg)" stroke="#334155" stroke-width="0.8"/>
+    <!-- AI Sparkle / Magic Star Icon -->
+    <g transform="translate(14, 15)">
+      <path d="M12 2L14.5 9.5L22 12L14.5 14.5L12 22L9.5 14.5L2 12L9.5 9.5L12 2Z" fill="#C084FC"/>
+      <circle cx="19" cy="5" r="2" fill="#38BDF8"/>
+    </g>
+    <text x="48" y="26" class="item-label" font-size="13.5">AI-Assisted Development</text>
+    <text x="48" y="43" class="item-sub">Workflows</text>
+  </g>
 
-  <text x="745" y="432"
-        fill="#c084fc"
-        font-family="Arial, sans-serif"
-        font-size="15"
-        font-weight="700">
-    AI DEVELOPMENT
-  </text>
+  <!-- Basic Agentic AI Concepts -->
+  <g transform="translate(745, 529)" class="tile" filter="url(#tile-depth)">
+    <rect width="290" height="54" rx="10" fill="url(#tile-bg)" stroke="#334155" stroke-width="0.8"/>
+    <!-- Agentic Workflow / Routing Hex Icon -->
+    <g transform="translate(14, 14)">
+      <circle cx="12" cy="12" r="9" fill="none" stroke="#a855f7" stroke-width="1.5" stroke-dasharray="2 2"/>
+      <circle cx="12" cy="12" r="4" fill="#38bdf8"/>
+      <path d="M12 3V7M12 17V21M3 12H7M17 12H21" stroke="#a855f7" stroke-width="1.5"/>
+    </g>
+    <text x="48" y="32" class="item-label" font-size="13.5">Basic Agentic AI Concepts</text>
+  </g>
 
-  <line x1="745" y1="448" x2="1035" y2="448" stroke="#26344b"/>
+  <!-- Git -->
+  <g transform="translate(745, 593)" class="tile" filter="url(#tile-depth)">
+    <rect width="290" height="46" rx="10" fill="url(#tile-bg)" stroke="#334155" stroke-width="0.8"/>
+    <!-- Git Branching Icon -->
+    <g transform="translate(14, 10) scale(1.05)">
+      <path d="M22 10.5L13.5 2C12.8 1.3 11.6 1.3 10.9 2L2 10.9C1.3 11.6 1.3 12.8 2 13.5L10.5 22C11.2 22.7 12.4 22.7 13.1 22L22 13.1C22.7 12.4 22.7 11.2 22 10.5Z" fill="#F05032"/>
+      <circle cx="12" cy="7" r="1.8" fill="#FFFFFF"/>
+      <circle cx="12" cy="17" r="1.8" fill="#FFFFFF"/>
+      <circle cx="16.5" cy="12" r="1.8" fill="#FFFFFF"/>
+      <path d="M12 8.8V15.2M13 10L15 11.5" stroke="#FFFFFF" stroke-width="1.2"/>
+    </g>
+    <text x="48" y="29" class="item-label">Git</text>
+  </g>
 
-  <rect x="745" y="468" width="290" height="60" rx="10" fill="#172235"/>
-  <text x="762" y="495"
-        fill="#e5edf7"
-        font-family="Arial, sans-serif"
-        font-size="14"
-        font-weight="600">
-    AI-Assisted Development
-  </text>
+  <!-- GitHub -->
+  <g transform="translate(745, 649)" class="tile" filter="url(#tile-depth)">
+    <rect width="138" height="42" rx="8" fill="url(#tile-bg)" stroke="#334155" stroke-width="0.8"/>
+    <!-- GitHub Invertocat Icon -->
+    <g transform="translate(10, 9) scale(0.95)">
+      <path d="M12 2C6.48 2 2 6.58 2 12.23C2 16.75 4.87 20.59 8.84 21.94C9.34 22.03 9.52 21.72 9.52 21.45C9.52 21.21 9.51 20.58 9.51 19.74C6.73 20.36 6.14 18.38 6.14 18.38C5.68 17.19 5.03 16.87 5.03 16.87C4.12 16.24 5.1 16.25 5.1 16.25C6.1 16.32 6.63 17.3 6.63 17.3C7.52 18.86 8.97 18.41 9.54 18.15C9.63 17.49 9.89 17.04 10.18 16.78C7.96 16.52 5.63 15.65 5.63 11.75C5.63 10.64 6.02 9.73 6.65 9.02C6.55 8.76 6.21 7.73 6.75 6.34C6.75 6.34 7.59 6.07 9.5 7.39C10.3 7.16 11.15 7.05 12 7.05C12.85 7.05 13.7 7.16 14.5 7.39C16.41 6.07 17.25 6.34 17.25 6.34C17.79 7.73 17.45 8.76 17.35 9.02C17.98 9.73 18.37 10.64 18.37 11.75C18.37 15.66 16.03 16.52 13.8 16.78C14.16 17.1 14.49 17.73 14.49 18.69C14.49 20.08 14.48 21.2 14.48 21.45C14.48 21.72 14.66 22.04 15.17 21.94C19.14 20.58 22 16.74 22 12.23C22 6.58 17.52 2 12 2Z" fill="#F1F5F9"/>
+    </g>
+    <text x="42" y="27" class="item-label" font-size="13">GitHub</text>
+  </g>
 
-  <text x="762" y="514"
-        fill="#94a3b8"
-        font-family="Arial, sans-serif"
-        font-size="11">
-    Workflows
-  </text>
+  <!-- VS Code -->
+  <g transform="translate(895, 649)" class="tile" filter="url(#tile-depth)">
+    <rect width="140" height="42" rx="8" fill="url(#tile-bg)" stroke="#334155" stroke-width="0.8"/>
+    <!-- VS Code Official Icon -->
+    <g transform="translate(10, 8) scale(0.85)">
+      <path d="M17.5 2L5 13.5L2 11L0 12.5L4 16L0 19.5L2 21L5 18.5L17.5 30L24 27V5L17.5 2ZM17.5 23.5L8.5 16L17.5 8.5V23.5Z" fill="#007ACC"/>
+    </g>
+    <text x="40" y="27" class="item-label" font-size="13">VS Code</text>
+  </g>
 
-  <rect x="745" y="540" width="290" height="60" rx="10" fill="#172235"/>
-  <text x="762" y="567"
-        fill="#e5edf7"
-        font-family="Arial, sans-serif"
-        font-size="14"
-        font-weight="600">
-    Basic Agentic AI Concepts
-  </text>
-
-  <rect x="745" y="612" width="290" height="48" rx="10" fill="#172235"/>
-  <text x="762" y="642"
-        fill="#e5edf7"
-        font-family="Arial, sans-serif"
-        font-size="14"
-        font-weight="600">
-    Git
-  </text>
-
-  <rect x="745" y="670" width="135" height="32" rx="8" fill="#172235"/>
-  <text x="762" y="691"
-        fill="#e5edf7"
-        font-family="Arial, sans-serif"
-        font-size="12"
-        font-weight="600">
-    GitHub
-  </text>
-
-  <rect x="890" y="670" width="145" height="32" rx="8" fill="#172235"/>
-  <text x="907" y="691"
-        fill="#e5edf7"
-        font-family="Arial, sans-serif"
-        font-size="12"
-        font-weight="600">
-    VS Code
-  </text>
 </svg>
