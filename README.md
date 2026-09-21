@@ -3,10 +3,8 @@
 <!-- ================================================================= -->
 <div align="center">
 
-<!-- Custom Identity Banner -->
-<a href="https://github.com/lokeshmudunuri">
-  <img src="https://raw.githubusercontent.com/lokeshmudunuri/lokeshmudunuri/main/assets/profile-banner.jpg" alt="Mudunuri Lokesh Varma" width="600" />
-</a>
+<!-- Top Waving Hero Banner (iblamesurya style) -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0e27,50:0d4f8c,100:00d4ff&height=220&section=header&text=Mudunuri%20Lokesh%20Varma&fontSize=52&fontColor=ffffff&fontAlignY=36&desc=Frontend%20Developer%20%7C%20AI%20%26%20ML%20Student&descAlignY=56&descSize=19&animation=twinkling" alt="Mudunuri Lokesh Varma Header Banner"/>
 
 <p align="center">
   <a href="https://github.com/lokeshmudunuri">
