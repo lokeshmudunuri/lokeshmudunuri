@@ -5,7 +5,7 @@
 
 <!-- Custom Identity Banner -->
 <a href="https://github.com/lokeshmudunuri">
-  <img src="./assets/profile-banner.jpg" alt="Mudunuri Lokesh Varma" width="600" />
+  <img src="https://raw.githubusercontent.com/lokeshmudunuri/lokeshmudunuri/main/assets/profile-banner.jpg" alt="Mudunuri Lokesh Varma" width="600" />
 </a>
 
 <p align="center">
