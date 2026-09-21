@@ -1,0 +1,39 @@
+name: Sync GitHub Streak Stats
+
+on:
+  schedule:
+    # Runs daily at midnight UTC
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  update-streak:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Fetch and Cache Streak Stats SVG
+        run: |
+          curl -sL --retry 3 --retry-delay 5 \
+            "https://streak-stats.demolab.com?user=${{ github.repository_owner }}&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D&ring=00d4ff&fire=ff6b35&currStreakLabel=00d4ff&sideLabels=00d4ff&background=0a0e27" \
+            -o assets/github-streak-stats.svg
+
+          # Validate the downloaded file is a valid SVG
+          if grep -q "<svg" assets/github-streak-stats.svg; then
+            echo "SVG generated successfully."
+          else
+            echo "SVG generation failed or rate-limited; skipping commit."
+            exit 1
+          fi
+
+      - name: Commit and Push Updated Stats
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/github-streak-stats.svg
+          git diff --staged --quiet || git commit -m "chore(stats): update streak statistics [skip ci]"
+          git push
