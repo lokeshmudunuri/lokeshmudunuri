@@ -106,9 +106,9 @@
     <!-- Subtitle / Engineering Disciplines -->
     <text x="0" y="66" class="role-text">
       <tspan class="role-highlight">Frontend Developer</tspan>
-      <tspan fill="#64748b"> &bull; </tspan>
+      <tspan fill="#64748b"> &#8226; </tspan>
       <tspan fill="#e2e8f0">Aspiring AI &amp; ML Engineer</tspan>
-      <tspan fill="#64748b"> &bull; </tspan>
+      <tspan fill="#64748b"> &#8226; </tspan>
       <tspan fill="#94a3b8">React &amp; Python Backend Systems</tspan>
     </text>
 
