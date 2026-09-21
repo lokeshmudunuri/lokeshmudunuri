@@ -1,0 +1,144 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 110" width="100%" height="110" fill="none">
+  <defs>
+    <!-- Background Linear Gradient -->
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0e27"/>
+      <stop offset="45%" stop-color="#0d1b3e"/>
+      <stop offset="85%" stop-color="#07223b"/>
+      <stop offset="100%" stop-color="#0a192f"/>
+    </linearGradient>
+
+    <!-- Glowing Cyber Border Gradient -->
+    <linearGradient id="border-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00d4ff" stop-opacity="0.8"/>
+      <stop offset="35%" stop-color="#6366f1" stop-opacity="0.6"/>
+      <stop offset="70%" stop-color="#00d4ff" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0.5"/>
+    </linearGradient>
+
+    <!-- Avatar Inner Accent -->
+    <linearGradient id="avatar-glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00d4ff"/>
+      <stop offset="100%" stop-color="#6366f1"/>
+    </linearGradient>
+
+    <!-- Soft Depth Filter -->
+    <filter id="card-shadow" x="-5%" y="-10%" width="110%" height="130%" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="6" stdDeviation="12" flood-color="#000000" flood-opacity="0.5"/>
+      <feDropShadow dx="0" dy="0" stdDeviation="4" flood-color="#00d4ff" flood-opacity="0.2"/>
+    </filter>
+
+    <filter id="badge-shadow" x="-10%" y="-15%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#000000" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+
+  <style>
+    .name-text {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+      font-size: 24px;
+      font-weight: 800;
+      fill: #ffffff;
+      letter-spacing: -0.3px;
+    }
+    .role-text {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+      font-size: 13.5px;
+      font-weight: 500;
+      fill: #94a3b8;
+    }
+    .role-highlight {
+      font-weight: 700;
+      fill: #38bdf8;
+    }
+    .meta-text {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+      font-size: 12px;
+      font-weight: 600;
+      fill: #cbd5e1;
+    }
+    .badge-label {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.2px;
+    }
+    @keyframes pulseGlow {
+      0%, 100% { opacity: 0.4; }
+      50% { opacity: 0.9; }
+    }
+    @keyframes subtleFloat {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-2px); }
+    }
+    .pulse-dot {
+      animation: pulseGlow 2.5s infinite ease-in-out;
+    }
+  </style>
+
+  <!-- Main 3D Card Base with Depth Shadow -->
+  <g filter="url(#card-shadow)">
+    <!-- 3D Bevel Base Layer -->
+    <rect x="5" y="6" width="840" height="98" rx="14" fill="#030712" />
+    <!-- Top Face with Gradient -->
+    <rect x="5" y="4" width="840" height="98" rx="14" fill="url(#bg-gradient)" stroke="url(#border-gradient)" stroke-width="1.2"/>
+  </g>
+
+  <!-- Left Accent / Decorative Tech Circuit Line -->
+  <path d="M 5 35 Q 20 35 25 53 T 40 53" fill="none" stroke="#00d4ff" stroke-width="1.5" stroke-opacity="0.3"/>
+  <circle cx="40" cy="53" r="2.5" fill="#00d4ff" opacity="0.6"/>
+
+  <!-- Left Side: Identity Avatar Pill / Icon -->
+  <g transform="translate(25, 20)">
+    <!-- Outer Glow Circle -->
+    <circle cx="35" cy="35" r="33" fill="#0e172e" stroke="#1e293b" stroke-width="1.5"/>
+    <circle cx="35" cy="35" r="28" fill="url(#avatar-glow)" opacity="0.15"/>
+    <circle cx="35" cy="35" r="24" fill="#0a0f24" stroke="#00d4ff" stroke-width="1.5" stroke-opacity="0.8"/>
+    <!-- Initials / Tech Monogram -->
+    <text x="35" y="42" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="18" font-weight="900" fill="#00d4ff" letter-spacing="1">MLV</text>
+  </g>
+
+  <!-- Central Block: Name & Core Engineering Focus -->
+  <g transform="translate(112, 0)">
+    <!-- Name -->
+    <text x="0" y="42" class="name-text">Mudunuri Lokesh Varma</text>
+
+    <!-- Subtitle / Engineering Disciplines -->
+    <text x="0" y="66" class="role-text">
+      <tspan class="role-highlight">Frontend Developer</tspan>
+      <tspan fill="#64748b"> &bull; </tspan>
+      <tspan fill="#e2e8f0">Aspiring AI &amp; ML Engineer</tspan>
+      <tspan fill="#64748b"> &bull; </tspan>
+      <tspan fill="#94a3b8">React &amp; Python Backend Systems</tspan>
+    </text>
+
+    <!-- Location & Status Badge Row -->
+    <g transform="translate(0, 77)">
+      <!-- Location Pin & Badge -->
+      <g filter="url(#badge-shadow)">
+        <rect x="0" y="0" width="168" height="22" rx="5" fill="#0f172a" stroke="#334155" stroke-width="0.8"/>
+        <!-- Location Pin Icon -->
+        <path d="M 12 5 C 9.2 5 7 7.2 7 10 C 7 13.8 12 18 12 18 C 12 18 17 13.8 17 10 C 17 7.2 14.8 5 12 5 Z M 12 11.5 C 11.2 11.5 10.5 10.8 10.5 10 C 10.5 9.2 11.2 8.5 12 8.5 C 12.8 8.5 13.5 9.2 13.5 10 C 13.5 10.8 12.8 11.5 12 11.5 Z" fill="#38bdf8"/>
+        <text x="24" y="15" class="badge-label" fill="#cbd5e1">Bhimavaram, India</text>
+      </g>
+
+      <!-- Academic Metadata Badge -->
+      <g transform="translate(176, 0)" filter="url(#badge-shadow)">
+        <rect x="0" y="0" width="180" height="22" rx="5" fill="#0f172a" stroke="#334155" stroke-width="0.8"/>
+        <!-- Graduation Cap Icon -->
+        <path d="M 6 10 L 14 6 L 22 10 L 14 14 Z M 10 13 V 16.5 C 10 17.5 11.8 18.5 14 18.5 C 16.2 18.5 18 17.5 18 16.5 V 13" fill="none" stroke="#a78bfa" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+        <text x="27" y="15" class="badge-label" fill="#cbd5e1">Vishnu Inst. of Tech</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Right Block: Status / Availability Indicator -->
+  <g transform="translate(685, 34)" filter="url(#badge-shadow)">
+    <rect x="0" y="0" width="145" height="38" rx="8" fill="#0c1322" stroke="#1e293b" stroke-width="1"/>
+    <!-- Animated Status Pulse -->
+    <circle cx="18" cy="19" r="6" fill="#10b981" class="pulse-dot" opacity="0.3"/>
+    <circle cx="18" cy="19" r="3.5" fill="#10b981"/>
+    <text x="32" y="18" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="10" font-weight="700" fill="#10b981" letter-spacing="0.5">STATUS</text>
+    <text x="32" y="30" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" font-weight="600" fill="#e2e8f0">Open to Roles</text>
+  </g>
+</svg>

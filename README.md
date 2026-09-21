@@ -1,22 +1,17 @@
 <!-- ================================================================= -->
-<!-- HERO HEADER -->
+<!-- HERO HEADER & IDENTITY BANNER -->
 <!-- ================================================================= -->
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0e27,45:0d3b66,85:005f73,100:00d4ff&height=220&section=header&text=Mudunuri%20Lokesh%20Varma&fontSize=48&fontColor=ffffff&fontAlignY=38&desc=Frontend%20Developer%20%E2%80%A2%20Aspiring%20AI%20%26%20ML%20Engineer&descAlignY=58&descSize=18&animation=twinkling" alt="Mudunuri Lokesh Varma Banner"/>
+<!-- Standalone Top Identity & Location Banner (Always Renders Reliably) -->
+<a href="https://github.com/lokeshmudunuri">
+  <img width="100%" src="./assets/profile-header-banner.svg" alt="Mudunuri Lokesh Varma • Bhimavaram, India"/>
+</a>
 
 <p align="center">
   <a href="https://github.com/lokeshmudunuri">
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&duration=2800&pause=1100&color=00D4FF&center=true&vCenter=true&repeat=true&width=680&height=45&lines=%F0%9F%9A%80+Frontend+Developer+%E2%80%A2+Aspiring+AI+%26+ML+Engineer;%E2%9A%99%EF%B8%8F+Deterministic+Calculations+%E2%86%92+Grounded+AI+Reasoning;%F0%9F%92%BB+React.js+%E2%80%A2+JavaScript+%E2%80%A2+Python+%E2%80%A2+FastAPI+%E2%80%A2+Pandas;%F0%9F%94%AC+B.Tech+AI+%26+ML+%40+Vishnu+Institute+of+Technology" alt="Dynamic Typing Bio"/>
   </a>
-</p>
-
-<!-- Clean Identity & Location Block -->
-<h3>Mudunuri Lokesh Varma</h3>
-<p>
-  <b>Frontend Developer • Aspiring AI & ML Engineer</b>
-  <br/>
-  📍 Bhimavaram, India
 </p>
 
 <!-- Social Links -->
@@ -38,13 +33,13 @@
   </a>
 </p>
 
-<!-- Verified Academic Metadata Badges -->
+<!-- Academic Metadata Badges -->
 <p align="center">
-  <img src="https://img.shields.io/badge/Education-B.Tech_AI_%26_ML_(2028)-0a0e27?style=flat-square&logo=academia&logoColor=00d4ff" alt="Education"/>
+  <img src="https://img.shields.io/badge/Degree-B.Tech_AI_%26_ML_(2028)-0a0e27?style=flat-square&logo=academia&logoColor=00d4ff" alt="Education"/>
   &nbsp;•&nbsp;
   <img src="https://img.shields.io/badge/Institution-Vishnu_Institute_of_Technology-0a0e27?style=flat-square&logo=googlemaps&logoColor=00d4ff" alt="Institution"/>
   &nbsp;•&nbsp;
-  <img src="https://img.shields.io/badge/CGPA-7.12_%2F_10.00-0a0e27?style=flat-square&logo=target&logoColor=00d4ff" alt="CGPA"/>
+  <img src="https://img.shields.io/badge/Location-Bhimavaram,_India-0a0e27?style=flat-square&logo=pin&logoColor=00d4ff" alt="Location"/>
 </p>
 
 </div>
@@ -60,55 +55,25 @@
 
 ---
 
-### 🛠️ Technical Preferences & Stack
+### 🛠️ Technical Skills
+
+<div align="center">
+  <img src="./assets/tech-stack.svg" alt="Technical Stack with 3D Visuals & Floating Effects" width="100%"/>
+</div>
+
+<br/>
 
 #### 💻 Programming Languages
-<p>
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=python,java,js" alt="Python, Java, JavaScript"/>
-  </a>
-</p>
+`Python` • `Java` • `JavaScript (ES6+)` • `HTML5` • `CSS3`
 
-#### 🌐 Frontend Development
-<p>
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=html,css,js,react,tailwind" alt="HTML5, CSS3, JavaScript, React, Tailwind CSS"/>
-  </a>
-</p>
+#### 🌐 Technologies & Frameworks
+`React.js` • `FastAPI` • `Tailwind CSS` • `RESTful APIs` • `SQLAlchemy`
 
-#### ⚙️ Backend & APIs
-<p>
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=fastapi,python" alt="FastAPI, Python Backend"/>
-  </a>
-</p>
+#### 🧠 AI / ML & Data Science
+`Google Gemini API` • `Pandas` • `NumPy` • `Heuristic Anomaly Detection`
 
-#### 📊 AI / ML & Data Science
-<p>
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=py,pandas,numpy" alt="Python, Pandas, NumPy"/>
-  </a>
-  &nbsp;
-  <img src="https://img.shields.io/badge/Google_Gemini_API-8E75C2?style=for-the-badge&logo=googlegemini&logoColor=white" alt="Gemini API" height="48"/>
-</p>
-
-#### 🗄️ Databases & ORM
-<p>
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=sqlite" alt="SQLite"/>
-  </a>
-  &nbsp;
-  <img src="https://img.shields.io/badge/SQLAlchemy-D71F00?style=for-the-badge&logo=sqlalchemy&logoColor=white" alt="SQLAlchemy" height="48"/>
-</p>
-
-#### 🛠️ Developer Tools & Environments
-<p>
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=git,github,vscode,bash" alt="Git, GitHub, VS Code, Bash"/>
-  </a>
-  &nbsp;
-  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions" height="48"/>
-</p>
+#### 🗄️ Databases & Developer Tools
+`SQLite` • `Git` • `GitHub Actions` • `VS Code` • `Terminal / Bash`
 
 ---
 
