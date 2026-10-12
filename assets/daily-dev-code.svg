@@ -19,21 +19,21 @@
 
   <!-- Badge / Category -->
   <rect x="80" y="16" width="280" height="20" rx="4" fill="#13233a" stroke="#00d4ff" stroke-opacity="0.3" stroke-width="1"/>
-  <text x="90" y="30" class="category">⚡ SQL &amp; SQLite • Analytical Indexing</text>
+  <text x="90" y="30" class="category">⚡ Git &amp; CI/CD • Clean History</text>
 
   <!-- Title -->
-  <text x="26" y="66" class="title">Compound Indexes for Fast Range &amp; Aggregation Queries</text>
+  <text x="26" y="66" class="title">Interactive Rebasing &amp; Atomic Commits</text>
 
   <!-- Code Container -->
   <rect x="20" y="80" width="740" height="164" rx="6" fill="#0d1117" stroke="#21262d" stroke-width="1"/>
-    <text x="36" y="110" fill="#8b949e" font-family="Consolas, Fira Code, monospace" font-size="12.5">-- Optimizes queries filtering by store and scanning recent 90-day intervals</text>
-    <text x="36" y="130" fill="#79c0ff" font-family="Consolas, Fira Code, monospace" font-size="12.5">CREATE INDEX idx_sales_store_date </text>
-    <text x="36" y="150" fill="#c9d1d9" font-family="Consolas, Fira Code, monospace" font-size="12.5">ON sales_records (store_id, transaction_date DESC);</text>
+    <text x="36" y="110" fill="#8b949e" font-family="Consolas, Fira Code, monospace" font-size="12.5"># Keep feature branches auditable and easy for teammates to review</text>
+    <text x="36" y="130" fill="#c9d1d9" font-family="Consolas, Fira Code, monospace" font-size="12.5">git fetch origin</text>
+    <text x="36" y="150" fill="#c9d1d9" font-family="Consolas, Fira Code, monospace" font-size="12.5">git rebase -i origin/main</text>
     <text x="36" y="170" fill="#c9d1d9" font-family="Consolas, Fira Code, monospace" font-size="12.5"></text>
-    <text x="36" y="190" fill="#8b949e" font-family="Consolas, Fira Code, monospace" font-size="12.5">-- SQLite converts slow linear table scans into targeted index range lookups</text>
-    <text x="36" y="210" fill="#c9d1d9" font-family="Consolas, Fira Code, monospace" font-size="12.5">SELECT sku, SUM(quantity) FROM sales_records</text>
-    <text x="36" y="230" fill="#c9d1d9" font-family="Consolas, Fira Code, monospace" font-size="12.5">WHERE store_id = &apos;S004&apos; AND transaction_date &gt;= &apos;2026-06-01&apos;;</text>
+    <text x="36" y="190" fill="#8b949e" font-family="Consolas, Fira Code, monospace" font-size="12.5"># Fix a regression in the previous commit without creating &apos;fix typo&apos; noise</text>
+    <text x="36" y="210" fill="#c9d1d9" font-family="Consolas, Fira Code, monospace" font-size="12.5">git add src/analytics.py</text>
+    <text x="36" y="230" fill="#c9d1d9" font-family="Consolas, Fira Code, monospace" font-size="12.5">git commit --amend --no-edit</text>
 
   <!-- Takeaway footer -->
-  <text x="26" y="299" class="takeaway">💡 Takeaway: Compound indexes with correct column order drastically cut analytical query execution time.</text>
+  <text x="26" y="299" class="takeaway">💡 Takeaway: Atomic, descriptive commits keep team code reviews effortless and git bisect fast.</text>
 </svg>
