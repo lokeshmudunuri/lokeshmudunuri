@@ -19,22 +19,22 @@
 
   <!-- Badge / Category -->
   <rect x="80" y="16" width="280" height="20" rx="4" fill="#13233a" stroke="#00d4ff" stroke-opacity="0.3" stroke-width="1"/>
-  <text x="90" y="30" class="category">⚡ JavaScript • Robust Async</text>
+  <text x="90" y="30" class="category">⚡ Java • Data Structures &amp; Algorithms</text>
 
   <!-- Title -->
-  <text x="26" y="66" class="title">Safe Async Orchestration with Promise.allSettled()</text>
+  <text x="26" y="66" class="title">Fast Sliding Window Anomaly Detection</text>
 
   <!-- Code Container -->
   <rect x="20" y="80" width="740" height="184" rx="6" fill="#0d1117" stroke="#21262d" stroke-width="1"/>
-    <text x="36" y="110" fill="#8b949e" font-family="Consolas, Fira Code, monospace" font-size="12.5">// Unlike Promise.all(), allSettled() never short-circuits on a single failure</text>
-    <text x="36" y="130" fill="#79c0ff" font-family="Consolas, Fira Code, monospace" font-size="12.5">const results = await Promise.allSettled([</text>
-    <text x="36" y="150" fill="#c9d1d9" font-family="Consolas, Fira Code, monospace" font-size="12.5">  fetchSalesVelocity(storeId),</text>
-    <text x="36" y="170" fill="#c9d1d9" font-family="Consolas, Fira Code, monospace" font-size="12.5">  fetchStockAnomalies(storeId),</text>
-    <text x="36" y="190" fill="#c9d1d9" font-family="Consolas, Fira Code, monospace" font-size="12.5">  fetchInventoryRunway(storeId)</text>
-    <text x="36" y="210" fill="#c9d1d9" font-family="Consolas, Fira Code, monospace" font-size="12.5">]);</text>
-    <text x="36" y="230" fill="#c9d1d9" font-family="Consolas, Fira Code, monospace" font-size="12.5"></text>
-    <text x="36" y="250" fill="#79c0ff" font-family="Consolas, Fira Code, monospace" font-size="12.5">const fulfilled = results.filter(r =&gt; r.status === &apos;fulfilled&apos;).map(r =&gt; r.value);</text>
+    <text x="36" y="110" fill="#8b949e" font-family="Consolas, Fira Code, monospace" font-size="12.5">// Compute rolling max over transaction streams in O(N) using Monotonic Deque</text>
+    <text x="36" y="130" fill="#c9d1d9" font-family="Consolas, Fira Code, monospace" font-size="12.5">Deque&lt;Integer&gt; deque = new ArrayDeque&lt;&gt;();</text>
+    <text x="36" y="150" fill="#c9d1d9" font-family="Consolas, Fira Code, monospace" font-size="12.5">for (int i = 0; i &lt; nums.length; i++) {</text>
+    <text x="36" y="170" fill="#c9d1d9" font-family="Consolas, Fira Code, monospace" font-size="12.5">    while (!deque.isEmpty() &amp;&amp; deque.peekFirst() &lt;= i - k) deque.pollFirst();</text>
+    <text x="36" y="190" fill="#c9d1d9" font-family="Consolas, Fira Code, monospace" font-size="12.5">    while (!deque.isEmpty() &amp;&amp; nums[deque.peekLast()] &lt;= nums[i]) deque.pollLast();</text>
+    <text x="36" y="210" fill="#c9d1d9" font-family="Consolas, Fira Code, monospace" font-size="12.5">    deque.offerLast(i);</text>
+    <text x="36" y="230" fill="#c9d1d9" font-family="Consolas, Fira Code, monospace" font-size="12.5">    if (i &gt;= k - 1) maxWindow[i - k + 1] = nums[deque.peekFirst()];</text>
+    <text x="36" y="250" fill="#c9d1d9" font-family="Consolas, Fira Code, monospace" font-size="12.5">}</text>
 
   <!-- Takeaway footer -->
-  <text x="26" y="319" class="takeaway">💡 Takeaway: Preserves partial dashboard telemetry even if an individual upstream microservice is degraded.</text>
+  <text x="26" y="319" class="takeaway">💡 Takeaway: Monotonic deques efficiently maintain order in streaming time-series anomaly detection.</text>
 </svg>
